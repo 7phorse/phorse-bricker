@@ -1,0 +1,17 @@
+server:
+  port: 8180
+
+# Spring 相关
+spring:
+  jackson:
+    default-property-inclusion: NON_NULL # 过滤null属性
+    property-naming-strategy: SNAKE_CASE # 驼峰转为下划线
+    date-format: yyyy-MM-dd HH:mm     # 日期格式化
+    time-zone: GMT+8                     # 时区
+# ===== 自定义swagger配置 ===== #
+swagger:
+  enable: true
+  application-name: phorse-bricker
+  application-version: 1.0
+  application-description: phorse-bricker-swagger 3.0
+  try-host: http://localhost:${server.port}
