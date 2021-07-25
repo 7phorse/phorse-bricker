@@ -1,5 +1,18 @@
-# Swagger 3.0整合
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Swagger 3.0整合](#swagger-30%E6%95%B4%E5%90%88)
+  - [swagger介绍](#swagger%E4%BB%8B%E7%BB%8D)
+  - [springfox介绍](#springfox%E4%BB%8B%E7%BB%8D)
+  - [springfox-swagger 2](#springfox-swagger-2)
+  - [SpringFox 3.0.0 发布](#springfox-300-%E5%8F%91%E5%B8%83)
+  - [SpringBoot整合Swagger](#springboot%E6%95%B4%E5%90%88swagger)
+  - [Swagger常用注解](#swagger%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# Swagger 3.0整合
 ## swagger介绍
 对于 Rest API 来说很重要的一部分内容就是文档，Swagger 为我们提供了一套通过代码和注解自动生成文档的方法，这一点对于保证 API 文档的及时性将有很大的帮助。
 
