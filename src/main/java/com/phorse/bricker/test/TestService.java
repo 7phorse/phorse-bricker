@@ -1,7 +1,13 @@
 package com.phorse.bricker.test;
 
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.temporal.TemporalUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import static java.time.temporal.ChronoUnit.DAYS;
 
 /**
  * TODO
@@ -12,12 +18,7 @@ import java.util.regex.Pattern;
 public class TestService {
 
     public static void main(String[] args) {
-        String str = "err(20004)";
-        String pattern = "err[(](\\d{5})[)]";
-
-        Pattern r = Pattern.compile(pattern);
-        Matcher m = r.matcher(str);
-        System.out.println(m.matches());
+        System.out.println(Duration.between(LocalDateTime.now(), LocalDateTime.now().plusDays(20)).toDays());
 
     }
 
